@@ -1,0 +1,224 @@
+
+/* just making what I need to a display flex */
+
+body, 
+.second-container, 
+.third-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header, 
+.first-container {
+    display: flex;
+}
+
+/* working on header */
+.header {
+    align-items: center;
+    
+}
+
+.headerLogo{
+    font-size: 24px;
+    color:#F9FAF8;
+}
+
+.links a{
+    text-decoration: none;
+    font-size: 18px;
+    color:#E5E7EB;
+    
+}
+
+.header{
+    gap: 1100px;
+}
+
+.links{
+    display: flex;
+    gap: 25px;
+}
+
+.header {
+    padding-left: 20px;
+}
+/* working on the first container */
+
+.first-container-text-button {
+    padding-bottom: 80px;
+    width: 470px;
+}
+
+.first-container {
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.first-header
+{
+    font-size:48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.first-header-subtext{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.Signup-button {
+    background-color:#3882F6;
+    border-color:#3882F6;
+    border-radius: 10px;
+    color:#F9FAF8;
+    padding:0;
+    width:100px;
+    height:30px;
+}
+
+.placeholder {
+    
+    color:#F9FAF8;
+    width:500px;
+    height:200px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.placeholder p {
+    margin: 90 0 0 0;
+}
+
+.first-container-text-button {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Working on second header */
+
+
+
+.second-header {
+    text-align: center;
+
+}
+
+.second-header{
+    font-size:36px;
+    font-weight: 900;
+    color:#1F2937
+}
+
+
+
+
+.images-container {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 16px;
+}
+
+.images img {
+    height:200px;
+    border-radius: 10px;
+    border:solid blue 2px;
+    width:200px;
+}
+
+.images p {
+    text-align: center;
+    width: 180px;
+    
+}
+
+/* Working on the third section */
+
+.third-container {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #E5E7EB;
+}
+
+.quote{
+    margin-top:200px;
+    margin-bottom:auto;
+    font-size: 36px;
+    font-style:italic;
+    font-weight:400;
+    color:#1F2937
+}
+
+.quoter{
+    flex-basis: 200px;
+    padding-left: 150px;
+
+}
+
+/* Working on the fourth section */
+
+.fourth-header {
+    font-weight: 900;
+    font-size: 18px;
+    margin:40px 0 0 0;
+}
+
+.fourth-subtext {
+    margin:0 0 40px 0;
+}
+
+.fourth-container {
+    display: flex;
+    background-color: #3882F6;
+    color:#F9FAF8;
+    border-radius:5px;
+    margin:80px auto 80px auto;
+    justify-content: space-around;
+    height:140px;
+    width:1000px;
+}
+
+.fourth-button {
+    align-self: center;
+    padding:5px 25px 5px 25px;
+    color:#F9FAF8;
+    background-color: #3882F6;
+    border-radius: 10px;
+    border-color: #F9FAF8;
+}
+
+/* working on the footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+
+}
+.footer p {
+
+    color: #F9FAF8;
+    font-size: 15px;
+}
+
+/* Generic stuff */
+
+.header,
+.first-container, 
+.footer {
+background-color: #1F2937;
+}
+
+body{
+    margin:0px;
+}
+
+
+
